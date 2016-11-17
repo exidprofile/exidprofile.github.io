@@ -55,6 +55,7 @@ video{
 }
 .open-btn{
 	position: absolute;
+	font-family: "Six Caps"!important;
 	z-index: 1;
 	bottom:80px;
 	height: 50px;
