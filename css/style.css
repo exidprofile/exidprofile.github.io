@@ -218,6 +218,15 @@ body.modal-open .main{
     font-family: MyCustomFont;
     src: url('hangulfont.ttf');
 }
+@font-face {
+    font-family: Six Caps;
+    src: url('SixCaps.ttf');
+}
+@font-face {
+    font-family: Indie Flower;
+    src: url('IndieFlower.ttf');
+}
+
 .myModal .modalContent .info{
 	position: absolute;
 	top:0px;
