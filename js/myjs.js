@@ -6,6 +6,9 @@ $(document).ready(function(){
         		$(this).hide();
     			$(".video-background").fadeOut(2000);
         		$('.main').fadeIn(2000);
+        		setTimeout(function() {
+        		$(".openPage").remove();
+				}, 2000);
 		    });
 		     $("img").on("contextmenu",function(){
 		       return false;
